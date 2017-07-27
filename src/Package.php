@@ -23,4 +23,42 @@ class Package
      * @var License[]
      */
     private $licenses;
+
+    /**
+     * Version of this package
+     * @var string
+     */
+    private $version;
+
+    public function __construct($name, $version, $source)
+    {
+        $this->name = $name;
+        $this->version = $version;
+        $this->source = $source;
+    }
+
+    public function addLicense($license)
+    {
+        $this->licenses[] = new License($license);
+    }
+
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function getSource()
+    {
+        return $this->source;
+    }
+
+    public function getVersion()
+    {
+        return $this->version;
+    }
+
+    public function getLicenses()
+    {
+        return $this->licenses;
+    }
 }
