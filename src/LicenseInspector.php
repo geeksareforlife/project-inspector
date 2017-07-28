@@ -59,6 +59,11 @@ class LicenseInspector
             $bridges[] = new ComposerPackageBridge($this->path);
         }
 
+        if (file_exists($this->path . '/package.json')) {
+            $this->output('Yarn found.', 'info');
+            $bridges[] = new YarnPackageBridge($this->path);
+        }
+
         return $bridges;
     }
 
