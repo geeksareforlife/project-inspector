@@ -2,6 +2,9 @@
 
 namespace GeeksAreForLife\Inspector;
 
+/**
+ * Package Bridge Interface
+ */
 interface PackageBridge
 {
     /**

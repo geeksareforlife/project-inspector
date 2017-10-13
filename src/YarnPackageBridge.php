@@ -5,6 +5,13 @@ namespace GeeksAreForLife\Inspector;
 use GeeksAreForLife\Inspector\Package;
 use GeeksAreForLife\Inspector\PackageBridge;
 
+/**
+ * Yarn Package Bridge
+ *
+ * Extracts information about node pacakges used in the project, using yarn
+ *
+ * Each package can have one license
+ */
 class YarnPackageBridge implements PackageBridge
 {
 

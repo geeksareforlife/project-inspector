@@ -2,6 +2,11 @@
 
 namespace GeeksAreForLife\Inspector;
 
+/**
+ * License Inspector
+ *
+ * Connects to the bridges and gets package information
+ */
 class LicenseInspector
 {
     /**
