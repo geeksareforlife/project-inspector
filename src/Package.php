@@ -4,6 +4,11 @@ namespace GeeksAreForLife\Inspector;
 
 use GeeksAreForLife\Inspector\License;
 
+/**
+ * The Package Class
+ *
+ * Stores a representation of a package, including its licence
+ */
 class Package
 {
     /**

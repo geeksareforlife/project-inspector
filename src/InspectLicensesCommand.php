@@ -9,6 +9,11 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
+/**
+ * Inspect Licenses Command Class
+ *
+ * Adds the inspect:licenses command to the console
+ */
 class InspectLicensesCommand extends Command
 {
 

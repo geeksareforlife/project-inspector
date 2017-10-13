@@ -2,6 +2,17 @@
 
 <?php 
 
+/**
+ * Project Inspector
+ *
+ * This console application reads the composer and yarn files in a project and 
+ * compiles a list of packages and licences used
+ *
+ * @licence MIT
+ * @package Project Inspector
+ */
+
+
 require_once __DIR__ . '/vendor/autoload.php'; 
 
 use Symfony\Component\Console\Application;

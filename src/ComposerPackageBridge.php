@@ -5,6 +5,13 @@ namespace GeeksAreForLife\Inspector;
 use GeeksAreForLife\Inspector\Package;
 use GeeksAreForLife\Inspector\PackageBridge;
 
+/**
+ * Composer Package Bridge
+ *
+ * Extracts information about composer pacakges used in the project
+ *
+ * Each package can have multiple licenses
+ */
 class ComposerPackageBridge implements PackageBridge
 {
 
